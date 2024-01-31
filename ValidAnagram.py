@@ -7,7 +7,6 @@ class ValidAnagram(object):
             print(f"The string {t} isn't anagram.")
 
         else:
-            count_letter = 0
             for s_char in s:
                 if s_char.strip() not in t.strip():
                     print(f"The string {t} isn't anagram.")
